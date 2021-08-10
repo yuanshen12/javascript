@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			function myFunction(){
+				// document.getElementById('demo').innerHTML = '段落被改变';
+				document.getElementById('demo').style.fontSize = '30px';
+			}
+		</script>
+	</head>
+	<body>
+		<h2>header 中 javacript</h2>
+		<p id="demo">一个段鸾</p>
+		<button type="button" onclick="myFunction()">点击试一试</button>
+		
+		<p id="test">body字段</p>
+		<button type="button" onclick="my()">试一试</button>
+		<script type="text/javascript">
+			function my(){
+				document.getElementById('test').innerHTML = "这个段落被改变";
+			}
+		</script>
+		<p id="test1">改变外部javascript</p>
+		<script type="text/javascript" src="./new_file.js">
+		</script>
+		<button type="button" onclick="test1()">外部</button>
+		<script type="text/javascript" src="https://www.w3school.com.cn/demo/myScript.js">
+			
+		</script>
+		<br>
+		&nbsp;
+		<br>
+		<script type="text/javascript">
+			document.write(1+11)
+		</script>
+		<p id="test2"></p>
+		<script type="text/javascript">
+			document.getElementById('test2').innerHTML = 1+ 001
+		</script>
+	<!-- 	<script type="text/javascript">
+			alert('提示')
+		</script> -->
+		<script type="text/javascript">
+			console.log(1213123)
+		</script>
+		
+		<script type="text/javascript">
+			let a, b, c;
+			a = 11;
+			b = 22;
+			c = a + b;
+			console.log(c)
+			
+		</script>
+		<p id="test3"></p>
+		<script type="text/javascript">
+			let x, y;
+			x = 11;
+			y = 22;
+			document.getElementById('test3').innerHTML = 1234;
+			document.getElementById('test3').innerHTML = 'hello word!!'
+			document.getElementById('test3').innerHTML = x;
+			document.getElementById('test3').innerHTML = (11 + 234) * 10;
+			document.getElementById('test3').innerHTML = x * y;
+			document.getElementById('test3').innerHTML = "bain" + x;
+		</script>
+	</body>
+</html>

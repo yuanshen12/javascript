@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<h2>这是一个段落</h2>
+		<p id="demo"></p>
+		<p id="test"></p>
+		<button type="button" onclick="document.getElementById('demo').innerHTML= Date()">
+			点击这里显示时间
+		</button>
+		<button type="button" onclick="document.getElementById('test').innerHTML=('hello word!!')">
+			点击这里生成文字
+		</button>
+		
+		<img id="myImage" src="./static/eg_bulboff.gif" border="0" style="text-align: center;" >
+		
+		<button type="button" onclick="document.getElementById('myImage').src='./static/eg_bulbon.gif'">开灯</button>
+		<button type="button" onclick="document.getElementById('myImage').src='./static/eg_bulboff.gif'">关灯</button>
+		
+		<p id="test_css">Javascript 能改变HTML元素样式</p>
+		<button type="button" onclick="document.getElementById('test_css').style.fontSize='35px'">字体变大</button>
+		
+		<p id="test_html">Javacript 隐藏HTML元素</p>
+		<button type="button" onclick="document.getElementById('test_html').style.display='none'">隐藏</button>
+		<button type="button" onclick="document.getElementById('test_html').style.display='block'">显示</button>
+	</body>
+</html>
